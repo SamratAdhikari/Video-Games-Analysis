@@ -1,0 +1,13 @@
+The Video Game Dataset contains 20,580 entries, with each entry representing a video game. 
+The dataset includes 8 columns:
+
+id: Unique identifier for each video game (data type: int64).
+name: The title or name of the video game (data type: object).
+released: The release date of the video game (data type: object).
+added: The number of times the game has been added or favorited (data type: int64).
+playtime: The average playtime in minutes (data type: int64).
+reviews_count: The number of reviews for the video game (data type: int64).
+ratings_count: The total number of ratings received by the game (data type: int64).
+rating: The average rating score for the video game (data type: float64).
+The dataset mainly consists of numerical columns (int64 and float64) along with a couple of object (string) columns. 
+The memory usage of the dataset is approximately 1.3+ MB.
